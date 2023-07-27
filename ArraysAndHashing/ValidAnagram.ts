@@ -24,3 +24,8 @@ function isAnagram(s: string, t: string): boolean {
 
 console.log(isAnagram(s, t));
 console.log(isAnagram(a, b));
+
+/* Best solution */
+// function isAnagram(s: string, t: string): boolean {
+//   return s.split("").sort().join("") === t.split("").sort().join("");
+// };
