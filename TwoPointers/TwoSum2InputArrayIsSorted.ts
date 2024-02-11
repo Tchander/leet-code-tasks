@@ -3,7 +3,7 @@
 const twoSum2InputArrayIsSorted = [2, 7, 11, 15];
 const twoSum2Target = 9;
 
-function twoSum(numbers: number[], target: number): number[] {
+function twoSum2(numbers: number[], target: number): number[] {
   const numberMap = new Map()
   for (let i = 0; i < numbers.length; i++) {
     const number = numbers[i]
@@ -14,4 +14,4 @@ function twoSum(numbers: number[], target: number): number[] {
   return [];
 }
 
-console.log(twoSum(twoSum2InputArrayIsSorted, twoSum2Target)); // [1, 2]
+console.log(twoSum2(twoSum2InputArrayIsSorted, twoSum2Target)); // [1, 2]
