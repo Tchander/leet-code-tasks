@@ -5,8 +5,6 @@ const binarySearchTarget1 = 9;
 const binarySearch2 = [-1, 0, 3, 5, 9, 12];
 const binarySearchTarget2 = 2;
 
-
-
 function search(nums: number[], target: number): number {
   let left = 0;
   let right = nums.length - 1;

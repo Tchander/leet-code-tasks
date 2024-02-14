@@ -17,14 +17,14 @@ function searchMatrix(matrix: number[][], target: number): boolean {
     } else if (matrix[mid][matrix[mid].length - 1] < target) {
       left = mid + 1;
     } else {
-      return search(matrix[mid], target);
+      return searchBinary(matrix[mid], target);
     }
   }
 
   return false;
 }
 
-function search(nums: number[], target: number): boolean {
+function searchBinary(nums: number[], target: number): boolean {
   let left = 0;
   let right = nums.length - 1;
 
